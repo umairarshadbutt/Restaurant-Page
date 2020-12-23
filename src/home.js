@@ -1,6 +1,19 @@
-import contact from './contact'
-import menu from './menu'
-import anchorTag from './anchorTag'
+import contact from './contact';
+import menu from './menu';
+import anchorTag from './anchorTag';
+
+
+const home1 = () => {
+  const content = document.querySelector('div#content');
+  content.innerHTML = '';
+  const div = document.createElement('div');
+  div.setAttribute('class', 'text-white jumbotron d-flex align-items-center min-vh-100');
+  const p = document.createElement('p');
+  p.setAttribute('class', 'container text-center');
+  p.innerText = 'Wow... You are at Pakistani Restaurant Page';
+  div.appendChild(p);
+  content.appendChild(div);
+};
 const homeClick = () => {
   home1();
 };
@@ -11,8 +24,6 @@ const menuClick = () => {
 const contactClick = () => {
   contact();
 };
-
-
 const home = () => {
   const header = document.querySelector('header');
   const headerH4 = document.createElement('h4');
@@ -33,19 +44,7 @@ const home = () => {
 
   const contactAnchor = document.querySelector('a[data-id="Contact"]');
   contactAnchor.addEventListener('click', contactClick);
-   
-  };
+};
 
-  const home1 = () => {
-    
-      const content = document.querySelector('div#content');
-      content.innerHTML = '';
-      const div = document.createElement('div');
-      div.setAttribute('class', 'text-white jumbotron d-flex align-items-center min-vh-100');
-      const p = document.createElement('p');
-      p.setAttribute('class', 'container text-center');
-      p.innerText = 'Wow... You are at Pakistani Restaurant Page';
-      div.appendChild(p);
-      content.appendChild(div);
-    };
-  export default home;
+
+export default home;
