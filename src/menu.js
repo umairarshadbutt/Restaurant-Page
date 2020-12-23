@@ -8,14 +8,14 @@ const menu = () => {
     p1.innerText = 'Wow... You are at Pakistani Restaurant Page';
     const dish1 = document.createElement('img');
     dish1.setAttribute('src', '../dist/assets/images/pakistan_food.jpg');
-    dish1.setAttribute('alt', 'Desserts');
-    dish1.setAttribute('alt', 'Desserts');
+    dish1.setAttribute('alt', 'Pakistani Food');
+    dish1.setAttribute('alt', 'Pakistani Food');
     dish1.setAttribute('class', 'image-meal');
     div.appendChild(dish1);
     const dish2 = document.createElement('img');
     dish2.setAttribute('src', '../dist/assets/images/pakistan_food.jpg');
-    dish2.setAttribute('alt', 'Desserts');
-    dish2.setAttribute('alt', 'Desserts');
+    dish2.setAttribute('alt', 'Pakistani Food');
+    dish2.setAttribute('alt', 'Pakistani Food');
     dish2.setAttribute('class', 'image-meal');
     
     div.appendChild(p1);
