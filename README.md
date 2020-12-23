@@ -41,6 +41,8 @@ To get a local copy up and running follow these simple example steps.
 - Change directory to folder to download repository
 - Use `cd <file-path>`
 - Run `git clone https://github.com/umairarshadbutt/Restaurant-Page`
+- Use `npx webpack`
+- Run the `index.html` from `dist` directory
 
 
 
