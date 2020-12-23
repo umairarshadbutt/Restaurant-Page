@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import home from './home';
 import contact from './contact'
+import menu from './menu'
 function component() {
     const element = document.createElement('div');
   
@@ -8,7 +9,8 @@ function component() {
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   console.log("test")
   // home();
-  contact();
+  // contact();
+  menu();
     return element;
   }
   

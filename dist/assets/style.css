@@ -4,7 +4,7 @@ body {
     
 }
 
-.contact {
+.contact, .menu {
   padding-top: 20%;
 }
 
@@ -15,4 +15,9 @@ body {
 .fa {
   text-align: center;
   margin: 0 4px 0 4px;
+}
+
+.image-meal {
+  width: 40%;
+  height: 45%
 }
