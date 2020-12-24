@@ -1,0 +1,23 @@
+body {
+    color: #fff;
+    background:    url('../assets/images/pakistan_food.jpg') center center no-repeat;
+    
+}
+
+.contact, .menu {
+  padding-top: 16%;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.fa {
+  text-align: center;
+  margin: 0 4px 0 4px;
+}
+
+.image-meal {
+  width: 40%;
+  height: 45%
+}
